@@ -1,0 +1,24 @@
+{
+  "name": "rene-kuhm-scss",
+  "version": "1.0.0",
+  "description": "compilando scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDesign-Castex/Sitio-web-Rene-kuhm.git"
+  },
+  "author": "rene kuhm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDesign-Castex/Sitio-web-Rene-kuhm/issues"
+  },
+  "homepage": "https://github.com/RDesign-Castex/Sitio-web-Rene-kuhm#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
